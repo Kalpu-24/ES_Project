@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(204, 255, 128);
+}
+header > img{
+    margin: 5px;
+}
+header > h1{
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    left: 7%;
+    color: rgb(1, 80, 1);
+}
+table{
+    background-color: rgb(47, 202, 0);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.NP{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid{
+    background-color: greenyellow;
+    margin: 20px;
+    padding: 20px;
+}
+span{
+    color: #008a0b;
+    font-size: large;
+    text-align: center;
+}
