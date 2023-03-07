@@ -13,9 +13,11 @@ header > h1{
     position: absolute;
     top: 0;
     left: 7%;
+    color: rgb(1, 80, 1);
 }
 table{
     background-color: rgb(47, 202, 0);
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -24,7 +26,6 @@ a{
 .NP{
     display: grid;
     grid-template-columns: auto auto auto;
-    flex-wrap: wrap;
 }
 .grid{
     background-color: greenyellow;
