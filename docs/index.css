@@ -14,7 +14,7 @@ body{
 .box{
     width: 40svw;
     height: 70svh;
-    background: #ffffff07;
+    background: #ffffff47;
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px 0 #000000;
     border-radius: 12px;
@@ -31,6 +31,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    color: #000;
 }
 
 .title{
@@ -43,6 +44,7 @@ body{
     left: 50%;
     transform: translateX(-50%);
     width: 90%;
+    color: #000;
 }
 
 .box button{
@@ -62,4 +64,19 @@ body{
 .box button:hover{
     background-color: #fafafa;
     color: #333;
+}
+
+@media screen and (max-width: 900px){
+    body{
+        display: block;
+        overflow-y: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    body::-webkit-scrollbar {
+        display: none;
+      }
+    .box{
+        width: 85svw;
+    }
 }
